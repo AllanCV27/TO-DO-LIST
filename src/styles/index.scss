@@ -1,13 +1,54 @@
 @import "~bootstrap/scss/bootstrap.scss";
-
-/* 
-
-    You can write your own styles here...
+*{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
+.form{
+    background-color: rgb(31, 82, 31);
+    width: 500px;
+    height: 500px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    padding: 5%;
+    font-family: 'Special Elite', cursive;
+    border-radius: 5px;
+    border: solid 10px;
+    border-color: rgb(122, 59, 30);
+}
+.pizarra{
+    background-color: transparent;
+}
+#amarillo{
+    margin-left: 40%;
+}
+.titulo{
+    font-family: 'Special Elite', cursive;
+    color: rgb(223, 203, 93);
+    background-color: transparent;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: 80px;
+}
+.basura{
+    background-color: none;
+    background-color: rgb(31, 82, 31);
+    color: white;
+    margin-left: 16px;
     
+}
+.listawork{
+    list-style: none;
+    background-color: rgb(31, 82, 31);
+}
+.botonbasura{
+    border: none;
+    background-color: rgb(31, 82, 31);
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.lead{
+    background-color: rgb(31, 82, 31);
+    color: white;
+    font-size: 30px;
+}
